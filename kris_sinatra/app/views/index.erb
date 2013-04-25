@@ -1,0 +1,33 @@
+<div class="container">
+  <h1>Welcome to Sinatra!</h1>
+  <p>Hello, world!</p>
+  <form action='/cool_url' method="post">
+    <input type="text" placeholder="text" name="text">
+    <input type="hidden" name="blah" value="whee">
+    <input type="submit" value="Submit">
+  </form>
+
+  <form action='/cool_url' method="post">
+    <input type='radio' name="sex" value="male">Male<br>
+    <input type='radio' name="sex" value="female">Female
+    <input type='submit' value="submit">
+  </form>
+
+  <form action='/cool_url' method="post">
+    <input type='checkbox' name="green" value="green">GREEEENN<br>
+    <input type='checkbox' name="blue" value="blue">BLUUEEE
+    <input type='submit' value="submit">
+  </form>
+
+  <form action='/cool_url' method="post">
+    <input type='text' name="post[title]">TUUUURTLES<br>
+    <input type='text' name="post[price]">PAAAANDA
+    <textarea name="post[description]"></textarea>
+    <input type='submit' value="submit">
+  </form>
+
+
+</div>
+
+
+<!-- ?text=whatever&blah=whee -->
